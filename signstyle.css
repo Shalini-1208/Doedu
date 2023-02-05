@@ -1,0 +1,138 @@
+body{
+ /*background-image:url(sincerely-media-_-hjiem5TqI-unsplash.jpg);*/
+     background-size :1580px ;
+     font-family:sans-serif;
+     box-sizing: border-box;
+     background-repeat: no-repeat;
+     background-position:cover;
+     background-color:grey;
+     text-align: center;
+ }
+ .Signupbox{
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     width:400px;
+     height:500px;
+     box-sizing:border-box;
+     background-color:rgb(79, 77, 77);
+     position:absolute;
+ }
+ .bs{
+     width:100px;
+     height:100px;
+     border-radius:50%;
+     overflow: hidden;
+     position:absolute;
+     top:calc(-100px/2);
+     left:calc(50%-50px);
+ 
+ }
+ h2{
+     margin:0;
+     padding:0 0 20px;
+     color:deeppink;
+     text-align:center;
+ }
+ .Signupbox p{
+     margin:0;
+     padding:0;
+     font-weight:bold;
+     color:#fff;
+ }
+ .Signupbox input{
+     width:80%;
+     margin-bottom:5px;
+ }
+ .Signupbox input[type="text"],
+ .Signupbox input[type="password"]
+ {
+     border:none;
+     border-bottom:1px solid #fff;
+     background: transparent;
+     outline: none;
+     height: 40px;
+     color:#fff;
+     font-size:16px;
+ }
+ ::placeholder{
+     color:rgba(255,255,255,.8);
+     font-family:Georgia, 'Times New Roman', Times, serif;
+ }
+ .Signupbox input[type="submit"]
+ {
+     border:none;
+     outline:none;
+     height:50px;
+     width:100px;
+     color:#fff;
+     font-size:16px;
+     background:deeppink;
+     font-family:sans-serif;
+ }
+ .Signupbox input[type="submit"]:hover{
+     background:white;
+     color:deeppink;
+ }
+ /*.Signupbox a{
+     color:#fff;
+     font-size:15px;
+     font-weight:bold;
+     text-decoration:none;
+ }*/
+ .signup-btn{
+     background-color:deeppink;
+     font-family:cursive;
+     width:80px;
+     height:35px;
+ }
+ .sup-but{
+     font-family:serif;
+     width:50%;
+     height:35px;
+     background-color:deeppink;
+     color:black;
+     font-size:medium;
+     cursor:pointer;
+ }
+ .signup-but{
+     font-family:serif;
+     width:50%;
+     height:35px;
+     color:black;
+     background-color: deeppink;
+     font-size: medium;
+     cursor:pointer;
+ }
+ .or{
+     color:black;
+     text-align: center;
+ }
+ a{
+     text-decoration:underline;
+     color:deeppink;
+ }
+ .submitbtn{
+     width:70px;
+     height:20px;
+     background-color: deeppink;
+     color:black;
+     font-family:verdana;
+     font-size: medium;
+     
+ }
+ .fp{
+     font-family:verdana;
+     font-size: medium;
+ }
+ .Lib{
+     top:50%;
+     left:50%;
+     transform:translate(-50%,-50%);
+     width:300px;
+     height:250px;
+     box-sizing:border-box;
+     background: gray;
+     position:absolute;
+     /*text-align:center;*/
+ }
